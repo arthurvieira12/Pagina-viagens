@@ -1,0 +1,26 @@
+body {  
+font-family: 'Open Sans', sans-serif;
+color: #828282;
+text-align: center;
+
+}
+
+h1{
+    font-family: 'Dosis', sans-serif; 
+    font-size: 32px;
+    line-height: normal;
+    font-weight: normal;
+    color: #3F3D56;
+}
+
+h1 spam { 
+    color: #EE24FF;
+    font-weight: bold;
+}
+
+
+spam , a {
+    color: #3F3D56;
+    font-weight: bold;
+}
+
