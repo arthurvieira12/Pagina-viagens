@@ -1,8 +1,28 @@
-body {  
+body{
+   margin: 0px;
+   min-height: 100px;
+   text-align: center;
+   
+   
+   
+}
+   
+#page {  
 font-family: 'Open Sans', sans-serif;
 color: #828282;
-text-align: center;
 
+margin: 64px auto 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+
+
+
+}
+
+section{
+    width: 600px;
 }
 
 h1{
@@ -11,6 +31,8 @@ h1{
     line-height: normal;
     font-weight: normal;
     color: #3F3D56;
+
+    
 }
 
 h1 spam { 
@@ -24,3 +46,31 @@ spam , a {
     font-weight: bold;
 }
 
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 42px; 
+    justify-content: center;
+
+    padding: 0px;
+    
+}
+
+hr{
+    width: 391px; ;
+    opacity: 0.5;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+#layout{
+    position: fixed;
+    bottom: 0px;
+    width: 1024px;
+    
+
+}
